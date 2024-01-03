@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in range(ord('A'), ord('z') + 1):
-    if i % 2 == 0:
-        print('{:c}'.format(ord('z') - (i - ord('A'))), end='')
+for c in range(26):
+    if c % 2 == 0:
+        print('{:c}'.format(122 - c), end='')
     else:
-        print('{:c}'.format(i), end='')
+        print('{:c}'.format(90 - c), end='')
