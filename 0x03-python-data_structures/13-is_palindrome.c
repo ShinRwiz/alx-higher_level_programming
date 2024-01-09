@@ -60,5 +60,6 @@ int is_palindrome(listint_t **head)
 	}
 	if (!clone)
 		return (1);
+
 	return (0);
 }
