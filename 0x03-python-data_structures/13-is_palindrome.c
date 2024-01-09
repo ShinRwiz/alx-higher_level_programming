@@ -26,8 +26,7 @@ void reverse_listint(listint_t **head)
  */
 int is_palindrome(listint_t **head)
 {
-	listint_t *go_1 = *head, *go_2 = *head;
-	listint_t *clone = NULL, *temp = *head;
+	listint_t *go_1 = *head, *go_2 = *head, *clone = NULL, *temp = *head;
 
 	if (head == NULL)
 		return (0);
