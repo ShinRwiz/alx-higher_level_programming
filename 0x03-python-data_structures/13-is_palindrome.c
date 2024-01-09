@@ -29,7 +29,7 @@ int is_palindrome(listint_t **head)
 	listint_t *go_1 = *head, *go_2 = *head;
 	listint_t *clone = NULL, *temp = *head;
 
-	if (*head == NULL || head == NULL)
+	if ((*head)->next == NULL || *head == NULL)
 		return (1);
 
 	while (1)
