@@ -14,7 +14,7 @@ class Rectangle:
         """
         type(self).number_of_instances += 1
         print_symbol = "#"
-        
+
         self.width = width
         self.height = height
 
