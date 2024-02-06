@@ -2,6 +2,8 @@
 """
 placeholder for description
 """
+
+
 def print_stats(size, status_codes):
     """Print accumulated metrics.
 
